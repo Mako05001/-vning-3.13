@@ -12,9 +12,13 @@ namespace Uppgift3._13
             {
                 Console.WriteLine("Du får delta");
             }
-            else
+            else if (Åldern < 16);
             {
-                Console.WriteLine("Du får inte delta");
+                Console.WriteLine("Du är för ung för att delta");
+            }
+            else if (Åldern > 19);
+            {
+                Console.WriteLine("Du är för gammal för att delta);
             }
 
         }
